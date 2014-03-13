@@ -1,6 +1,5 @@
-GEDCOM Parser Challenge
-Why this is chosen?
-•	I have used XML, before so felt attempting after reading the question.
+GEDCOM Parser
+
 Approach:
 •	Need a parser to parse the file, represent the parsed data as a bean, generate xml from this, and write the data to the file.
 •	So, there is a need for reading the file(may be line by line), parse each line, create a hierarchical bean having parent, children, then convert this bean to xml and write to a file.
